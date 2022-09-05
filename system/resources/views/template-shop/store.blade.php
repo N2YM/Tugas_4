@@ -84,6 +84,7 @@
 		<!-- /BREADCRUMB -->
 
 		<!-- SECTION -->
+		
 		<div class="section">
 			<!-- container -->
 			<div class="container">
@@ -270,6 +271,8 @@
 					<!-- /ASIDE -->
 
 					<!-- STORE -->
+					
+
 					<div id="store" class="col-md-9">
 						<!-- store top filter -->
 						<div class="store-filter clearfix">
@@ -302,6 +305,8 @@
 							<!-- product -->
 							<div class="col-md-4 col-xs-6">
 								<div class="product">
+									
+									
 									<div class="product-img">
 										<img src="{{ url('public/assets-shop') }}/img/product01.png" alt="">
 										<div class="product-label">
@@ -311,8 +316,8 @@
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h3 class="product-name"><a href="#"></a></a></h3>
+										<h4 class="product-price">Rp.4000</h4>
 										<div class="product-rating">
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
@@ -332,9 +337,11 @@
 								</div>
 							</div>
 							<!-- /product -->
+							
+							
 
 							<!-- product -->
-							<div class="col-md-4 col-xs-6">
+							{{-- <div class="col-md-4 col-xs-6">
 								<div class="product">
 									<div class="product-img">
 										<img src="{{ url('public/assets-shop') }}/img/product02.png" alt="">
@@ -363,13 +370,13 @@
 										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
 									</div>
 								</div>
-							</div>
+							</div> --}}
 							<!-- /product -->
 
 							<div class="clearfix visible-sm visible-xs"></div>
 
 							<!-- product -->
-							<div class="col-md-4 col-xs-6">
+							{{-- <div class="col-md-4 col-xs-6">
 								<div class="product">
 									<div class="product-img">
 										<img src="{{ url('public/assets-shop') }}/img/product03.png" alt="">
@@ -390,13 +397,13 @@
 										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
 									</div>
 								</div>
-							</div>
+							</div> --}}
 							<!-- /product -->
 
 							<div class="clearfix visible-lg visible-md"></div>
 
 							<!-- product -->
-							<div class="col-md-4 col-xs-6">
+							{{-- <div class="col-md-4 col-xs-6">
 								<div class="product">
 									<div class="product-img">
 										<img src="{{ url('public/assets-shop') }}/img/product04.png" alt="">
@@ -417,13 +424,13 @@
 										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
 									</div>
 								</div>
-							</div>
+							</div> --}}
 							<!-- /product -->
 
 							<div class="clearfix visible-sm visible-xs"></div>
 
 							<!-- product -->
-							<div class="col-md-4 col-xs-6">
+							{{-- <div class="col-md-4 col-xs-6">
 								<div class="product">
 									<div class="product-img">
 										<img src="{{ url('public/assets-shop') }}/img/product05.png" alt="">
@@ -444,11 +451,11 @@
 										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
 									</div>
 								</div>
-							</div>
+							</div> --}}
 							<!-- /product -->
 
 							<!-- product -->
-							<div class="col-md-4 col-xs-6">
+							{{-- <div class="col-md-4 col-xs-6">
 								<div class="product">
 									<div class="product-img">
 										<img src="{{ url('public/assets-shop') }}/img/product06.png" alt="">
@@ -474,13 +481,13 @@
 										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
 									</div>
 								</div>
-							</div>
+							</div> --}}
 							<!-- /product -->
 
 							<div class="clearfix visible-lg visible-md visible-sm visible-xs"></div>
 
 							<!-- product -->
-							<div class="col-md-4 col-xs-6">
+							{{-- <div class="col-md-4 col-xs-6">
 								<div class="product">
 									<div class="product-img">
 										<img src="{{ url('public/assets-shop') }}/img/product07.png" alt="">
@@ -506,11 +513,11 @@
 										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
 									</div>
 								</div>
-							</div>
+							</div> --}}
 							<!-- /product -->
 
 							<!-- product -->
-							<div class="col-md-4 col-xs-6">
+							{{-- <div class="col-md-4 col-xs-6">
 								<div class="product">
 									<div class="product-img">
 										<img src="{{ url('public/assets-shop') }}/img/product08.png" alt="">
@@ -531,13 +538,13 @@
 										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
 									</div>
 								</div>
-							</div>
+							</div> --}}
 							<!-- /product -->
 
 							<div class="clearfix visible-sm visible-xs"></div>
 
 							<!-- product -->
-							<div class="col-md-4 col-xs-6">
+							{{-- <div class="col-md-4 col-xs-6">
 								<div class="product">
 									<div class="product-img">
 										<img src="{{ url('public/assets-shop') }}/img/product09.png" alt="">
@@ -558,9 +565,11 @@
 										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
 									</div>
 								</div>
-							</div>
+							</div> --}}
 							<!-- /product -->
+							
 						</div>
+			
 						<!-- /store products -->
 
 						<!-- store bottom filter -->
@@ -576,12 +585,14 @@
 						</div>
 						<!-- /store bottom filter -->
 					</div>
+					
 					<!-- /STORE -->
 				</div>
 				<!-- /row -->
 			</div>
 			<!-- /container -->
 		</div>
+		
 		<!-- /SECTION -->
 
 		<!-- NEWSLETTER -->
@@ -633,6 +644,7 @@
 		<script src="{{ url('public/assets-shop') }}/js/nouislider.min.js"></script>
 		<script src="{{ url('public/assets-shop') }}/js/jquery.zoom.min.js"></script>
 		<script src="{{ url('public/assets-shop') }}/js/main.js"></script>
+		
 
 	</body>
 </html>

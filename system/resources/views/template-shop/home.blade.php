@@ -144,6 +144,7 @@
 								<!-- tab -->
 								<div id="tab1" class="tab-pane active">
 									<div class="products-slick" data-nav="#slick-nav-1">
+										@foreach ($list_produk as $produk)
 										<!-- product -->
 										<div class="product">
 											<div class="product-img">
@@ -155,8 +156,8 @@
 											</div>
 											<div class="product-body">
 												<p class="product-category">Category</p>
-												<h3 class="product-name"><a href="#">product name goes here</a></h3>
-												<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+												<h3 class="product-name"><a href="#">{{ $produk->nama }}</a></h3>
+												<h4 class="product-price">Rp. {{ number_format($produk->harga) }}  </h4>
 												<div class="product-rating">
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
@@ -177,7 +178,7 @@
 										<!-- /product -->
 
 										<!-- product -->
-										<div class="product">
+										{{-- <div class="product">
 											<div class="product-img">
 												<img src="{{ url('public/assets-shop') }}/img/product02.png" alt="">
 												<div class="product-label">
@@ -204,11 +205,11 @@
 											<div class="add-to-cart">
 												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
 											</div>
-										</div>
+										</div> --}}
 										<!-- /product -->
 
 										<!-- product -->
-										<div class="product">
+										{{-- <div class="product">
 											<div class="product-img">
 												<img src="{{ url('public/assets-shop') }}/img/product03.png" alt="">
 												<div class="product-label">
@@ -230,11 +231,11 @@
 											<div class="add-to-cart">
 												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
 											</div>
-										</div>
+										</div> --}}
 										<!-- /product -->
 
 										<!-- product -->
-										<div class="product">
+										{{-- <div class="product">
 											<div class="product-img">
 												<img src="{{ url('public/assets-shop') }}/img/product04.png" alt="">
 											</div>
@@ -258,11 +259,11 @@
 											<div class="add-to-cart">
 												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
 											</div>
-										</div>
+										</div> --}}
 										<!-- /product -->
 
 										<!-- product -->
-										<div class="product">
+										{{-- <div class="product">
 											<div class="product-img">
 												<img src="{{ url('public/assets-shop') }}/img/product05.png" alt="">
 											</div>
@@ -286,8 +287,9 @@
 											<div class="add-to-cart">
 												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
 											</div>
-										</div>
+										</div> --}}
 										<!-- /product -->
+										@endforeach
 									</div>
 									<div id="slick-nav-1" class="products-slick-nav"></div>
 								</div>

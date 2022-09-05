@@ -2,26 +2,32 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Produk;
+
 class ClientController extends Controller
 {
 
     function showHome()
     {
-        return view('template-shop.home');
+        $data['list_produk'] = Produk::all();
+        return view('template-shop.home', $data);
     }
     function showStore()
     {
-        return view('template-shop.store');
+        $data['list_produk'] = Produk::all();
+        return view('template-shop.store', $data);
     }
 
     function showProduct()
     {
-        return view('template-shop.product');
+        $data['list_produk'] = Produk::all();
+        return view('template-shop.product', $data);
     }
 
-    function showCheckout()
+    function showCheckout(Produk $produk)
     {
-        return view('template-shop.checkout');
+        $data['produk'] = $produk;
+        return view('template-shop.checkout', $data);
     }
 
     function showContact()

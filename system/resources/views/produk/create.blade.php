@@ -38,7 +38,7 @@
                     </div>
                     <div class="form-grup">
                         <label for="">Deskripsi</label>
-                       <textarea  class="form-control"  rows="22" name="deskripsi" ></textarea>
+                       <textarea  class="form-control"   name="deskripsi" ></textarea>
                     </div>
                     <button class="btn btn-dark float-right mt-4"> <i class="mdi mdi-content-save"></i> Simpan</button>
                 </form>
